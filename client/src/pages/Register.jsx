@@ -37,7 +37,7 @@ const Register = () => {
 
         if(data.password !== data.confirmPassword){
             toast.error(
-                "password and confirm password must be same"
+                "Password and Confirm password must be same"
             )
             return
         }
